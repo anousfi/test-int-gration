@@ -1,0 +1,90 @@
+#body{
+    width: 100%;
+    height:100%;
+    background-color: black;
+}
+#form{
+    width : 90%;
+    height:95%;
+    background-color:rgb(250, 190, 118);
+    z-index:auto;
+    margin-top: 5%;
+}
+#entete{
+    height: 20%;
+    border-bottom-style: solid;
+    border-bottom-color: black ;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.err{
+    font-size: 60%;
+    color:red;
+}
+
+.form1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width:100%;
+    height:100%;
+}
+#littletext{
+    font-size: 60%;
+}
+.leftside{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2%;
+    margin-bottom: 10%;
+}
+#formtitle{
+    width : 70%;
+    height: 15%;
+    display: flex;
+    justify-content:left;
+}
+.fields{
+    width:70%;
+    height:10%;
+}
+#img1{
+    height: 40%;
+    width:10%;
+}
+.img2{
+   height:80%;
+   width:80%;
+}
+h4{
+    margin-right: 20%;
+}
+.title1{
+    font-family: 'Montserrat', sans-serif;
+}
+.fields1{
+    display:flex;
+    justify-content: space-between;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    height:50%;
+}
+#rightside{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#title2{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+}
